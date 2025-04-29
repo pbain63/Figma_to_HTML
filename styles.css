@@ -22,8 +22,9 @@
 }
 /*  */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif, "NotoSansJP";
   height: 100vh;
+
   /* min-height: 100vh; */
 }
 
@@ -173,6 +174,27 @@ body {
   font-family: "NotoSansJP", sans-serif;
 }
 
+.vision-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* text-align:center; */
+  margin-top: 5rem;
+}
+.vision-heading {
+  font-size: 1.5rem;
+}
+p {
+  font-size: 16px;
+}
+.vision-text {
+  max-width: 17rem;
+  margin-top: 2rem;
+}
 /* PC Version (≥ 768px) - Reset Styles */
 @media (min-width: 768px) {
+  p {
+    font-size: 18px;
+  }
 }
