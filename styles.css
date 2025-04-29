@@ -1,0 +1,38 @@
+/* Base Styles (Mobile First) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*  */
+@font-face {
+  font-family: "Pacifico";
+  src: url("./assets/fonts/Pacifico-Regular.woff2") format("woff2"),
+    url("./assets/fonts/Pacifico-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NotoSansJP";
+  src: url("./assets/fonts/NotoSansJP-Regular.woff2") format("woff2"),
+    url("./assets/fonts/NotoSansJP-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*  */
+body {
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  /* min-height: 100vh; */
+}
+
+.image-text .latin {
+  font-family: "Pacifico", sans-serif;
+}
+
+.image-text .japanese {
+  font-family: "NotoSansJP", sans-serif;
+  /* color: yellowgreen; */
+  /* font-weight: bold; */
+}
