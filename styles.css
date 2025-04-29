@@ -27,12 +27,152 @@ body {
   /* min-height: 100vh; */
 }
 
+.nav-links {
+  position: fixed;
+  top: 0;
+  left: -150%;
+  width: 100%;
+  /* height: 100%; */
+  /* background: white; */
+
+  /* padding-top: 60px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* gap: 2rem; */
+  transition: left 0.3s ease;
+  /* z-index: 10; */
+
+  list-style: none;
+  /* margin-top: 2.75rem; */
+  /* color: red; */
+  /* display: none; */
+}
+.nav-links li {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background: white;
+  margin-bottom: 0.06rem;
+  /* font-size: 1.5rem; */
+  /* background-color: blueviolet; */
+  /* margin-bottom: 1rem; */
+}
+.nav-links a {
+  /* padding: 15px; */
+  text-decoration: none;
+  /* color: red; */
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+.nav-links .arrow:hover {
+  /* text-decoration: none; */
+}
+
+.hamburger-menu {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.hamburger-menu .bar {
+  width: 25px;
+  height: 3px;
+  /* color: black; */
+  /* background: red; */
+  background: white;
+}
+
+.nav-links.active {
+  left: 0;
+  margin-top: 4rem;
+  /* margin-bottom: 3rem; */
+  /* font-size: 1.5rem; */
+}
+
+.arrow {
+  padding-left: 0.25rem;
+  padding-right: 0.5rem;
+  /* list-style: none; */
+  /* text-decoration: none; */
+  /* text-align: center; */
+}
+.nav-links + .close-menu {
+  /* display: block; */
+}
+.close-menu {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+
+  /* color: red; */
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  /* z-index: 20; */
+
+  display: none;
+}
+
+/* have to change img layout */
+.hero-image {
+  /* position: relative; */
+  /* text-align: center; */
+  /* color:white */
+  /* display: inline-block; */
+  /* width: 100%; */
+
+  /* background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.hero-image img {
+  /* height: auto; */
+  /* display: block; */
+  /*  */
+  width: 100%;
+  /* object-fit: cover; */
+  /*  */
+}
+
+.latin {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: white;
+  /* text-align: center; */
+}
+/* have to combind to reduce redundancy */
+.japanese {
+  position: absolute;
+  top: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* padding-top: 3rem; */
+  /* text-align: center; */
+}
+
 .image-text .latin {
   font-family: "Pacifico", sans-serif;
 }
 
 .image-text .japanese {
   font-family: "NotoSansJP", sans-serif;
-  /* color: yellowgreen; */
-  /* font-weight: bold; */
+}
+
+/* PC Version (≥ 768px) - Reset Styles */
+@media (min-width: 768px) {
 }
