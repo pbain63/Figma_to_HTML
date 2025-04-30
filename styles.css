@@ -130,7 +130,6 @@ body {
 
 .vision-text {
   text-align: start;
-
   margin-top: 2rem;
 }
 
@@ -243,6 +242,7 @@ p {
   flex-direction: column;
   align-items: center;
   margin-bottom: 5rem;
+  gap: 3rem;
 }
 .footer {
   text-align: center;
