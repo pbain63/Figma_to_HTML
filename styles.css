@@ -183,6 +183,7 @@ p {
 
   text-align: center;
   gap: 4rem;
+  margin-bottom: 5rem;
 }
 
 .circleImage-heading,
@@ -211,6 +212,7 @@ p {
   color: white;
   gap: 3rem;
   padding: 3rem;
+  margin-bottom: 5rem;
 }
 
 .story-section h2 {
@@ -238,10 +240,12 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 5rem;
 }
 .footer {
   text-align: center;
   padding-bottom: 3rem;
+  
 }
 .footer-link {
   color: blue;
