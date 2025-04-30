@@ -175,22 +175,22 @@ body {
 }
 
 .vision-container {
-  display: flex;
-  flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-  /* text-align:center; */
+  text-align: center;
   margin-top: 5rem;
+  margin-left: 13rem;
+  margin-right: 13rem;
 }
 .vision-heading {
   font-size: 1.5rem;
 }
+.vision-text {
+  text-align: start;
+
+  margin-top: 2rem;
+}
+
 p {
   font-size: 16px;
-}
-.vision-text {
-  max-width: 17rem;
-  margin-top: 2rem;
 }
 
 .message-grid-container {
@@ -247,7 +247,8 @@ p {
 .circleImage-item {
   /* align-self: center; */
 }
-.circleImage-heading, .circleImage-item img {
+.circleImage-heading,
+.circleImage-item img {
   padding-bottom: 2rem;
 }
 .circleImage-info {
@@ -260,28 +261,60 @@ p {
   /* width: 15rem; */
 }
 
-
 /* PC Version (≥ 768px) - Reset Styles */
 @media (min-width: 768px) {
-  .hamburger-menu, .close-menu, .nav-links .arrow {
+  .hamburger-menu,
+  .close-menu,
+  .nav-links .arrow {
     display: none;
   }
-
-  .nav-links {
-    /* display:contents; */
-    text-align:end;
+  /*  */
+  /* .nav-links {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    background: linear-gradient(to right, transparent 50%, url('./images/mainImg.jpg') center/cover no-repeat);
+    padding: 1rem 2rem;
+    gap: 1.5rem;
     
   }
+  .nav-links li a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+  }
+  .nav-links::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background: url('./images/mainImg.jpg') center/cover no-repeat;
+    z-index: 1;
+    opacity: 0.5;
+  } */
 
+  /*  */
   .hero-image {
-    width: 68%;
+    width: 57rem;
     margin: 0 auto;
-    
   }
   p {
     font-size: 18px;
   }
 
+  .vision-container {
+    text-align: center;
+    margin-left: 17rem;
+    margin-right: 17rem;
+  }
+
+  .vision-text {
+    text-align: start;
+  }
   .message-grid-container {
     grid-template-rows: repeat(2, 28rem);
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
@@ -306,7 +339,6 @@ p {
   }
 
   .circleImage-flex-container {
-    
     flex-direction: row;
     justify-content: center;
   }
