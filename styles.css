@@ -122,8 +122,10 @@ body {
 .vision-container {
   text-align: center;
   margin-top: 5rem;
-  margin-left: 13rem;
-  margin-right: 13rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  /* margin-left: 13rem; */
+  /* margin-right: 13rem; */
 }
 
 .vision-text {
@@ -245,7 +247,6 @@ p {
 .footer {
   text-align: center;
   padding-bottom: 3rem;
-  
 }
 .footer-link {
   color: blue;
