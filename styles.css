@@ -184,7 +184,10 @@ p {
 .grid-item img {
   width: 100%;
 }
-
+.circleImage-container {
+  width: 80%;
+  margin: 0 auto;
+}
 .circleImage-flex-container {
   display: flex;
   flex-direction: column;
@@ -203,7 +206,7 @@ p {
 }
 .circleImage-item img,
 .circleImage-info {
-  width: 32rem;
+  /* width: 32rem; */
 }
 
 .bg-sec-container {
