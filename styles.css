@@ -266,6 +266,9 @@ iframe {
   height: 300px;
 }
 .footer {
+  border: 2px solid green;
+  width: 90%;
+  margin: 0 auto;
   text-align: center;
   padding-bottom: 3rem;
 }
