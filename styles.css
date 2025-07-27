@@ -91,9 +91,11 @@ body {
 
   display: none;
 }
-
+img {
+  max-width: 100%;
+}
 .hero-image img {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .latin {
