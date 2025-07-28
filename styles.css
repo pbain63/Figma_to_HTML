@@ -209,6 +209,60 @@ p {
   /* width: 32rem; */
 }
 
+/* 🌟 */
+.reason-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+}
+.ribbon {
+  background-color: #00aeef;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -3%;
+  left: 10%;
+  /* text-align: center; */
+}
+.reason-heading-container {
+  text-align: center;
+  border: 2px solid #00aeef;
+  /* margin-inline: 3rem; */
+  margin-bottom: 5rem;
+}
+.reason-heading-container > p {
+  width: 100%;
+  height: 1.5rem;
+  background: #00aeef;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-small;
+}
+.reason-jp-heading-container h3 {
+  padding-top: 1.5em;
+}
+.img-text img {
+  width: 100%;
+  padding: 2rem;
+}
+.img-text p {
+  text-align: left;
+  padding-inline: 2rem;
+}
+.img-text .p2 {
+  padding-bottom: 3rem;
+}
+/* 🌿 */
+
 .bg-sec-container {
   background-image: url(./images/bgSec04.jpg);
   background-size: cover;
