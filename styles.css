@@ -178,6 +178,10 @@ p {
 .message {
   background-color: whitesmoke;
 }
+.item3 .message-grid-item-heading {
+  /* border: 2px solid red; */
+  padding: 2rem 0;
+}
 .message-text {
 
   width: 90%;
