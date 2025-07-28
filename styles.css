@@ -351,9 +351,29 @@ iframe {
     display: none;
   }
 
+  .nav-links {
+    /* position: static; */
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+  
+    padding-right: 2rem;
+    
+    
+    /* background: inherit; */
+  }
+  .nav-links li {
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    background: none;
+  }
   /*  */
   .hero-image {
-    width: 57rem;
+    /* width: 57rem; */
+    width: 60%;
+    max-width: 1200px;
     margin: 0 auto;
   }
   p {
@@ -362,8 +382,12 @@ iframe {
 
   .vision-container {
     text-align: center;
-    margin-left: 17rem;
-    margin-right: 17rem;
+    width: 40%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* margin-left: 17rem; */
+    /* margin-right: 17rem; */
+    padding: 5rem 0;
   }
 
   .vision-text {
