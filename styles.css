@@ -421,7 +421,7 @@ iframe {
   }
 
   .circleImage-flex-container {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 40%;
     margin: 0 auto;
     display: flex;
@@ -434,7 +434,10 @@ iframe {
   .circleImage-info {
     width: 15rem;
   }
-
+  .ribbon {
+    top: -1.2%;
+    left: 5%;
+  }
   .bg-sec-container {
     flex-direction: row;
     padding: 16rem;
