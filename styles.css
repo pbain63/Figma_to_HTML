@@ -277,13 +277,13 @@ p {
   background-position: center;
   /* width: 100%; */
   height: 25rem;
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
 
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   color: white;
-  gap: 3rem;
+  /* gap: 3rem; */
   padding: 3rem;
   margin-bottom: 5rem;
 }
@@ -294,20 +294,11 @@ p {
 
 .story-section p {
   text-align: start;
+  /* border: 2px solid red; */
 }
-.comInfo {
-  display: flex;
-  justify-content: center;
-
-  gap: 2rem;
-}
-.left {
-  text-align: end;
-  margin-bottom: 1.2rem;
-}
-
-.right {
-  margin-bottom: 1.2rem;
+.success {
+  /* border: 2px solid red; */
+  margin-top: 4rem;
 }
 .comInfo-map-container {
   /* border: 2px solid green; */
@@ -320,8 +311,22 @@ p {
   /* gap: 3rem; */
 }
 .comInfo {
-  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
   margin-bottom: 2rem;
+}
+.left {
+  text-align: end;
+  margin-bottom: 1.2rem;
+}
+
+.right {
+  margin-bottom: 1.2rem;
+}
+
+.comInfo {
+  /* border: 2px solid red; */
 }
 .map-container {
   /* border: 2px solid red; */
