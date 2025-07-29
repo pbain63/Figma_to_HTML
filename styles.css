@@ -468,9 +468,17 @@ iframe {
     line-height: 2rem;
     /* word-spacing: 100px; */
   }
-  .bg-sec-container {
-    flex-direction: row;
-    padding: 16rem;
+  .story-section--wrapper {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .success {
+    margin: 0;
   }
   .comInfo-map-container {
     display: flex;
