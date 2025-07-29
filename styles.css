@@ -434,9 +434,34 @@ iframe {
   .circleImage-info {
     width: 15rem;
   }
+  .reason-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .ribbon {
-    top: -1.2%;
+    top: -3.9%;
     left: 5%;
+  }
+  .img-text {
+    display: flex;
+    padding: 3rem;
+    gap: 2rem;
+  }
+  .img-text img {
+    padding: 0;
+    /* margin: 0; */
+    /* width: 100%; */
+    /* padding: 2rem; */
+  }
+  .img-text p {
+    /* text-align: left; */
+    /* padding-inline: 3rem; */
+  }
+  .reason-text {
+    /* border: 2px solid red; */
+    line-height: 2rem;
+    /* word-spacing: 100px; */
   }
   .bg-sec-container {
     flex-direction: row;
