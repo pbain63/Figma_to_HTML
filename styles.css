@@ -468,9 +468,14 @@ iframe {
     padding: 16rem;
   }
   .comInfo-map-container {
-    flex-direction: row;
+    display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 5rem;
+  }
+  iframe {
+    /* width: 100%; */
+    width: 400px;
+    /* height: 300px; */
   }
   .footer {
     display: flex;
