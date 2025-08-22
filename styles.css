@@ -354,10 +354,16 @@ iframe {
   .nav-links .arrow {
     display: none;
   }
-
+  .navbar {
+    /* display: block; */
+    /* position:fixed; */
+    /* top: 15%; */
+    /* right: 15%; */
+    /* z-index: 10; */
+  }
   .nav-links {
     position: static;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     display: flex;
     justify-content: end;
     gap: 2rem;
