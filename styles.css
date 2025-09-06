@@ -1,4 +1,4 @@
-/* Base Styles (Mobile First) */
+/* Base Styles (Mobile First and Tablet version) */
 *,
 *::before,
 *::after {
@@ -332,7 +332,7 @@ iframe {
 }
 
 /* PC Version (≥ 768px) - Reset Styles */
-@media (min-width: 768px) {
+@media (min-width: 1188px) {
   .hamburger-menu,
   .close-menu,
   .nav-links .arrow {
