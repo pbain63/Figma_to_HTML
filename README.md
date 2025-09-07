@@ -9,6 +9,14 @@ This project demonstrates my ability to take a Figma design and implement it in 
 
 ---
 
+## Screenshots
+
+| Desktop View                                         | Mobile View                                        | 
+| ---------------------------------------------------- | -------------------------------------------------- | 
+| ![Desktop](assets/screenshots/desktop-view.png) | ![Mobile](assets/screenshots/mobile-view.png) | !
+
+---
+
 ## Features
 
 - Pixel-perfect conversion from Figma design
@@ -59,14 +67,6 @@ cd Figma_to_HTML
 Open `index.html` in your browser
 
 That’s it! No additional setup is required.
-
----
-
-## Screenshots
-
-Desktop View
-
-Mobile View
 
 ---
 
