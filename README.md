@@ -1,7 +1,7 @@
 # Figma to HTML
 
 Convert Figma designs into clean, responsive website.
-This project demonstrates my ability to take a Figma design and implement it in code using **HTML5** and **CSS3**, following modern best practices.
+This project demonstrates my ability to take a Figma design and implement it in code using **HTML5** **CSS3**, and **JavaScript** following modern best practices.
 
 ---
 
@@ -11,9 +11,9 @@ This project demonstrates my ability to take a Figma design and implement it in 
 
 ## Screenshots
 
-| Desktop View                                         | Mobile View                                        | 
-| ---------------------------------------------------- | -------------------------------------------------- | 
-| ![Desktop](assets/screenshots/desktop-view.png) | ![Mobile](assets/screenshots/mobile-view.png) | !
+| Desktop View                                    | Mobile View                                   |
+| ----------------------------------------------- | --------------------------------------------- | --- |
+| ![Desktop](assets/screenshots/desktop-view.png) | ![Mobile](assets/screenshots/mobile-view.png) | !   |
 
 ---
 
@@ -31,6 +31,7 @@ This project demonstrates my ability to take a Figma design and implement it in 
 
 - **HTML5** – Semantic and accessible markup
 - **CSS3** – Styling with Flexbox, Grid, and media queries
+- **JavaScript** - Open and close the menu of the hamburger button for mobile view
 - **Figma** – Source design for conversion
 
 ---
