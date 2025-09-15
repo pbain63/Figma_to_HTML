@@ -94,9 +94,6 @@ body {
 img {
   max-width: 100%;
 }
-.hero-image img {
-  /* width: 100%; */
-}
 
 .latin {
   position: absolute;
@@ -124,7 +121,6 @@ img {
 }
 
 .vision-container {
-  /* border: 2px solid red; */
   width: 60%;
   margin: 0 auto;
   text-align: center;
@@ -141,11 +137,7 @@ p {
 }
 
 .message-grid-container {
-  /* border: 2px solid green; */
   display: grid;
-
-  /* grid-template-rows: repeat(2, 1fr); */
-  /*  */
   grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
   margin-top: 5rem;
   margin-bottom: 5rem;
@@ -168,24 +160,19 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* gap: 2rem; */
 }
 
 .message {
   background-color: whitesmoke;
 }
 .message-grid-item-heading {
-  /* border: 2px solid red; */
   padding: 2rem 0;
 }
 .message-text {
   width: 90%;
   padding: 2rem 0;
-  /* margin-left: 1rem; */
-  /* margin-right: 1rem; */
 }
 .grid-item img {
-  /* border: 2px solid red; */
   width: 100%;
 }
 .circleImage-container {
@@ -205,10 +192,6 @@ p {
 .circleImage-info {
   margin: 0 auto;
   padding-bottom: 2rem;
-  /* border: 2px solid red; */
-}
-.circleImage-item img,
-.circleImage-info {
 }
 
 /* 🌟 */
@@ -216,7 +199,6 @@ p {
   position: relative;
   width: 90%;
   margin: 0 auto;
-  /* border: 2px solid red; */
 }
 .ribbon {
   background-color: #00aeef;
@@ -235,7 +217,6 @@ p {
 .reason-heading-container {
   text-align: center;
   border: 2px solid #00aeef;
-  /* margin-inline: 3rem; */
   margin-bottom: 5rem;
 }
 .reason-heading-container > p {
@@ -268,11 +249,9 @@ p {
   background-image: url(./assets/images/bgSec04.jpg);
   background-size: cover;
   background-position: center;
-  /* width: 100%; */
   height: 45rem;
   text-align: center;
   color: white;
-  /* gap: 3rem; */
   padding: 3rem;
   margin-bottom: 5rem;
 }
@@ -283,18 +262,14 @@ p {
 
 .story-section p {
   text-align: start;
-  /* border: 2px solid red; */
 }
 .success {
-  /* border: 2px solid red; */
   margin-top: 4rem;
 }
 .comInfo-map-container {
-  /* border: 2px solid green; */
   width: 90%;
   margin: 0 auto;
   margin-bottom: 5rem;
-  /* gap: 3rem; */
 }
 .comInfo {
   display: flex;
@@ -310,19 +285,11 @@ p {
 .right {
   margin-bottom: 1.2rem;
 }
-
-.comInfo {
-  /* border: 2px solid red; */
-}
-.map-container {
-  /* border: 2px solid red; */
-}
 iframe {
   width: 100%;
   height: 300px;
 }
 .footer {
-  /* border: 2px solid green; */
   width: 90%;
   margin: 0 auto;
   text-align: center;
