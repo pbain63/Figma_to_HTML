@@ -3,191 +3,216 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Figma to responsive website</title>
+    <title>Figma to HTML5 1</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <ul class="nav-links">
-          <li>
-            <a href="#"><span class="arrow">›</span>TOP</a>
-          </li>
-          <li>
-            <a href="#"><span class="arrow">›</span>VISION</a>
-          </li>
-          <li>
-            <a href="#"><span class="arrow">›</span>MESSAGE</a>
-          </li>
-          <li>
-            <a href="#"><span class="arrow">›</span>SERVICE</a>
-          </li>
-          <li>
-            <a href="#"><span class="arrow">›</span>STORY</a>
-          </li>
-          <li>
-            <a href="#"><span class="arrow">›</span>PROFILE</a>
-          </li>
-        </ul>
-
-        <div class="hamburger-menu">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
+      <div class="container">
+        <div class="main--image-container">
+          <img
+            class="main--image"
+            src="./assets/images/mainImg.jpg"
+            alt="a girl standing in front of big wheel"
+          />
         </div>
-        <div class="close-menu">✕</div>
-      </nav>
+        <nav class="nav" role="navigation">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="" class="nav__link"
+                ><span class="nav--symbol">></span
+                ><span class="nav__text">TOP</span></a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"
+                ><span class="nav--symbol">></span
+                ><span class="nav__text">VISION</span></a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"
+                ><span class="nav--symbol">></span
+                ><span class="nav__text">MESSAGE</span></a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"
+                ><span class="nav--symbol">></span
+                ><span class="nav__text">SERVICE</span></a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"
+                ><span class="nav--symbol">></span
+                ><span class="nav__text">STORY</span></a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="" class="nav__link"
+                ><span class="nav--symbol">></span
+                ><span class="nav__text">PROFILE</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+        <div class="top">
+          <div class="top-english">Vestibulum mauris</div>
+          <div class="top-japanese">最新技術と自然との調和を目指す</div>
+        </div>
+      </div>
     </header>
     <main>
-      <section class="hero-container">
-        <div class="hero-image">
-          <img src="./assets/images/mainImg.jpg" alt="a girl" />
-        </div>
-        <div class="image-text">
-          <h1 class="image-text latin">Vestibulum mauris</h1>
-          <div class="image-text japanese">最新技術と自然との調和を目指す</div>
-        </div>
-      </section>
-
-      <section class="vision-container">
-        <h2 class="vision-heading">VISION</h2>
-        <p class="vision-text">
+      <section class="vision">
+        <h2 class="section__heading">VISION</h2>
+        <p class="vision__text">
           ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいうには及ばないはずである。上に行ったような事柄については、曖昧な態度をとり、または真実でない知識を強いて注入していたことも、明らかな事実である。
         </p>
       </section>
 
-      <section class="message-container">
-        <div class="message-grid-container">
-          <div class="grid-item image item1">
-            <img src="./assets/images/sec02_01.jpg" alt="people are eating" />
-          </div>
-          <div class="grid-item message item2">
-            <h2 class="message-grid-item-heading">MESSAGE</h2>
-            <p class="message-text">
-              ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいう。
-            </p>
-          </div>
-          <div class="grid-item message item3">
-            <h2 class="message-grid-item-heading">MESSAGE</h2>
-            <p class="message-text">
-              ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいう。
-            </p>
-          </div>
-          <div class="grid-item image item4">
+      <section class="message--grid">
+        <div class="container message--grid__wrapper">
+          <div class="message--grid__first-image--container">
             <img
+              class="message--grid__first-image"
+              src="./assets/images/sec02_01.jpg"
+              alt="eating table photos with food from top"
+            />
+          </div>
+          <div class="message--grid__first-message">
+            <h2 class="section__heading message__heading">MESSAGE</h2>
+            <p class="first-message__text">
+              ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいう。
+            </p>
+          </div>
+          <div class="message--grid__second-image--container">
+            <img
+              class="message--grid__second-image"
               src="./assets/images/sec02_02.jpg"
-              alt="front side of a building with front portion of a car"
+              alt="photo of front shop with car aside"
             />
           </div>
-        </div>
-      </section>
-
-      <section class="circleImage-container">
-        <div class="circleImage-flex-container">
-          <div class="circleImage-item">
-            <h2 class="circleImage-heading">SERVICE</h2>
-            <img
-              src="./assets/images/circleImg01.png"
-              alt="inner side of a shop"
-            />
-            <p class="circleImage-info">
+          <div class="message--grid__second-message">
+            <h2 class="section__heading message__heading">MESSAGE</h2>
+            <p class="second-message__text">
               ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいう。
             </p>
           </div>
+        </div>
+      </section>
 
-          <div class="circleImage-item">
-            <h2 class="circleImage-heading">MESSAGE</h2>
-            <img
-              src="./assets/images/circleImg02.png"
-              alt="a man and a woman laughing standing beside a wall"
-            />
-            <p class="circleImage-info">
-              ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば。
-            </p>
-          </div>
+      <section class="circle-image__container">
+        <div class="circle-image__wrapper">
+          <h2 class="section__heading">SERVICE</h2>
+          <img
+            class="first-circle-image"
+            src="./assets/images/circleImg01.png"
+            alt="inside photo of food shop"
+          />
+          <p class="circle-image__text">
+            ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいう。
+          </p>
+        </div>
 
-          <div class="circleImage-item">
-            <h2 class="circleImage-heading">STORY</h2>
+        <div class="circle-image__wrapper">
+          <h2 class="section__heading">MESSAGE</h2>
+          <img
+            class="first-circle-image"
+            src="./assets/images/circleImg02.png"
+            alt="photo of study table"
+          />
+          <p class="circle-image__text">
+            ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば。
+          </p>
+        </div>
+
+        <div class="circle-image__wrapper">
+          <h2 class="section__heading">STORY</h2>
+          <img
+            class="first-circle-image"
+            src="./assets/images/circleImg01.png"
+            alt="inside photo of food shop"
+          />
+          <p class="circle-image__text">
+            科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいう。
+          </p>
+        </div>
+      </section>
+
+      <section class="reason">
+        <div class="reason__wrapper">
+          <div class="reason--top">REASON</div>
+          <div class="reason__heading">歴史と実績</div>
+          <div class="reason__image__text--wrapper">
             <img
-              src="./assets/images/circleImg03.png"
-              alt="a reading table, bookshelf inside of a house"
-              loading="lazy"
+              class="reason__image"
+              src="./assets/images/reason.jpg"
+              alt="collaboration of three images"
             />
-            <p class="circleImage-info">
-              科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいう。
+            <p class="reason__text">
+              昭和10年に長浜市で創業して以来、水まわりなどの小さいリフォームから住宅・店舗の設計施工、公共建築物等の大規模な建築まで、滋賀県に住む皆様のために多くのサポートをして参りました。
+              長年地元のお客様と共に歩んできた歴史と実績は、何物にも代えがたいノブワークスの財産です。
             </p>
           </div>
         </div>
       </section>
 
-      <section class="reason-container">
-        <div class="ribbon">01</div>
-        <div class="reason-heading-container">
-          <p>REASON</p>
-          <div class="reason-jp-heading-container">
-            <h3>歴史と実績</h3>
-            <div class="img-text">
-              <img
-                src="./assets/images/reason.jpg"
-                alt="three combined image"
-              />
-              <div class="reason-text">
-                <p class="p1">
-                  昭和10年に長浜市で創業して以来、水まわりなどの小さいリフォームから住宅・店舗の設計施工、公共建築物等の大規模な建築まで、滋賀県に住む皆様のために多くのサポートをして参りました。
-                </p>
-                <p class="p2">
-                  長年地元のお客様と共に歩んできた歴史と実績は、何物にも代えがたいノブワークスの財産です。
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="bg-sec-container">
-        <div class="story-section--wrapper">
-          <div class="story-section">
-            <h2>STORY</h2>
-            <p>
+      <section class="bg__section">
+        <div class="story-success--wrapper">
+          <div class="bg__section--story">
+            <h2 class="section__heading">STORY</h2>
+            <p class="story__text">
               科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいうには及ばないはずである。
             </p>
           </div>
-          <div class="story-section success">
-            <h2>SUCCESS</h2>
-            <p>
+          <div class="bg__section--success">
+            <h2 class="section__heading">SUCCESS</h2>
+            <p class="story__text">
               ちかごろ世間で日本歴史の科学的研究ということがしきりに叫ばれている。科学的研究というのが近代私学の学問的方法による研究という意義であるならば、これは史学の学徒の間に老いては一般に行われていることであるから、今更こと新しくいうには及ばないはずである。
             </p>
           </div>
         </div>
       </section>
-      <section class="comInfo-map-container">
-        <div class="comInfo">
-          <div class="comInfo-text">
-            <p class="left">社名</p>
-            <p class="left">代表取締役</p>
-            <p class="left">住所</p>
-            <p class="left">電話番号</p>
-            <p class="left">設立</p>
-            <p class="left">資本金</p>
-            <p class="left">主な取引先</p>
+
+      <section class="company-info__map">
+        <div class="company-info-container">
+          <div class="company-info__left-side">
+            <div class="left-side">社名</div>
+            <div class="left-side">代表取締役</div>
+            <div class="left-side">住所</div>
+            <div class="left-side">電話番号</div>
+            <div class="left-side">設立</div>
+            <div class="left-side">資本金</div>
+            <div class="left-side">主な取引先</div>
           </div>
-          <div class="comInfo-text">
-            <p class="right">Sample Company</p>
-            <p class="right">見本 太郎</p>
-            <p class="right">見本県見本市仮区見本町1-3-5</p>
-            <p class="right">01234-567-8901</p>
-            <p class="right">20XX年5月5日</p>
-            <p class="right">1,000,000円</p>
-            <p class="right">見本商事株式会社</p>
-            <p class="right last2">株式会社年中無休商事</p>
-            <p class="right last2">株式会社仮称</p>
+
+          <div class="company-info__right-side">
+            <div class="right-side">Sample Company</div>
+            <div class="right-side">見本 太郎</div>
+            <div class="right-side">見本県見本市仮区見本町1-3-5</div>
+            <div class="right-side">01234-567-8901</div>
+            <div class="right-side">20XX年5月5日</div>
+            <div class="right-side">1,000,000円</div>
+            <div class="right-side text-color">見本商事株式会社</div>
+            <div class="right-side text-color">株式会社年中無休商事</div>
+            <div class="right-side text-color">株式会社仮称</div>
           </div>
         </div>
+
         <div class="map-container">
-          <!-- width="350" -->
-          <!-- height="300" -->
+          <!-- width="600"
+          height="450" -->
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3198.5937918751074!2d136.9319984!3d36.708298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff781ec5af4ca3f%3A0x2ade3e8e4c2801b8!2z56aP5bKh6aeF!5e0!3m2!1sja!2sbd!4v1745825505508!5m2!1sja!2sbd"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3198.5939595251575!2d136.92946237522244!3d36.70829397227338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff781ec5af4ca3f%3A0x2ade3e8e4c2801b8!2z56aP5bKh6aeF!5e0!3m2!1sja!2sbd!4v1759596035225!5m2!1sja!2sbd"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
@@ -196,13 +221,12 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
-      <p class="footer-text">
-        Copyright(c) 2025 Sample Inc. All Rights Reserved. Design by
-      </p>
+      <div class="first-line">
+        Copyright(c) 20XX Sample Inc. All Rights Reserved. Design by
+      </div>
 
-      <p class="footer-link">http://f-tpl.com</p>
+      <div class="second-line">http://f-tpl.com</div>
     </footer>
     <script src="./script.js"></script>
   </body>
