@@ -49,17 +49,14 @@ img {
   padding: 0.5rem 0;
 }
 .nav__link span {
-  /* border: 2px solid red; */
   padding: 0 0.5rem 0 0.25rem;
 }
 .nav__list {
-  /* border: 2px solid red; */
   list-style: none;
   position: absolute;
   top: 8%;
   z-index: 2;
   width: 100%;
-  /* max-width: 250px; */
   display: flex;
   flex-direction: column;
   max-height: 0;
@@ -87,14 +84,12 @@ img {
 .main--image {
   position: relative;
   z-index: 0;
-  /* min-height: 20rem; */
 }
 .top {
   position: absolute;
   top: 6%;
   left: 22%;
   z-index: 1;
-  /* width: 6rem; */
 }
 
 .top-english {
@@ -108,13 +103,7 @@ img {
 .vision {
   width: 50%;
   margin: 0 auto;
-  /* border: 2px solid red; */
 }
-/* .vision,
-.message--grid,
-.circle-image__container {
-  margin-top: 5rem;
-} */
 .section__heading {
   margin-bottom: 2rem;
   text-align: center;
@@ -122,7 +111,6 @@ img {
 /* MESSAGE grid */
 .message--grid__first-message,
 .message--grid__second-message {
-  /* border: 2px solid red; */
   padding: 2rem 1rem;
   background: whitesmoke;
   display: flex;
@@ -136,7 +124,6 @@ img {
 }
 .circle-image__wrapper + .circle-image__wrapper {
   margin-top: 4rem;
-  /* border: 2px solid red; */
 }
 .circle-image__text {
   padding-top: 1rem;
@@ -158,21 +145,14 @@ img {
   align-items: center;
 }
 .reason__heading {
-  /* border: 2px solid red; */
   text-align: center;
   margin-top: 2rem;
 }
 .reason__image__text--wrapper {
-  /* border: 2px solid red; */
   display: flex;
   flex-direction: column;
   gap: 1rem;
   padding: 2rem;
-}
-.reason__image {
-  /* width: 90%; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
 }
 /* bg section */
 .bg__section {
@@ -191,8 +171,6 @@ img {
 }
 /* company info, map */
 .company-info__map {
-  /* width: 95%; */
-  /* margin: 0 auto; */
   padding-top: 5rem;
   padding-bottom: 8rem;
 }
@@ -231,7 +209,6 @@ img {
 }
 /* footer */
 .footer {
-  /* border: 2px solid red; */
   text-align: center;
   width: 90%;
   margin: 0 auto;
@@ -323,7 +300,6 @@ img {
   }
   /* circle image */
   .circle-image__container {
-    /* border: 2px solid red; */
     display: flex;
     /* Set in middle all time */
     justify-content: center;
@@ -336,7 +312,7 @@ img {
   }
 
   .circle-image__text {
-    /* Set image text so div can flex in row nicely */
+    /* Set image text, so div can flex by row nicely */
     width: 200px;
     margin: 0 auto;
   }
@@ -350,7 +326,6 @@ img {
   }
   /* bg section */
   .story-success--wrapper {
-    /* border: 2px solid red; */
     width: 40%;
     display: flex;
     gap: 3rem;
@@ -363,8 +338,6 @@ img {
     width: 45%;
     display: flex;
     gap: 2rem;
-    /* justify-content: center; */
-    /* align-items: center; */
     margin: 0 auto;
   }
   .map-container {
@@ -375,11 +348,8 @@ img {
     display: flex;
     justify-content: center;
     gap: 0.4rem;
-    /* align-items: center; */
   }
   .second-line {
-    /* color: #01d9ff; */
     padding-top: 0;
-    /* padding-bottom: 5rem; */
   }
 }
