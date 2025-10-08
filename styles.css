@@ -254,7 +254,6 @@ img {
     /* Adjust alignment within the header container as needed */
     justify-content: flex-end;
     align-items: center;
-
     /* Remove mobile transition for instant display */
     transition: none;
     gap: 2rem;
